@@ -1,0 +1,1266 @@
+{
+    "raw_logs": [
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "价格",
+            "reaction": "哈哈，这哥们儿跟我一样，没优惠谁点啊，省钱才是王道。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只是确认了价格敏感的行为，没有提供具体优惠信息或新平台推荐，不足以促使我切换或放弃当前平台，继续观望等待更好的机会。",
+            "cumulative_score": 0.0
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "价格",
+            "reaction": "优惠对我没吸引力，更关心服务稳定性和时效性。",
+            "sentiment_shift": 0,
+            "action": "C",
+            "reason": "评论仅关注价格优惠，未涉及时效、服务等关键因素，不影响我对美团现有稳定性的依赖，无需改变行为。",
+            "cumulative_score": 0.0
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "价格",
+            "reaction": "用户因价格优惠才点，平台可能利用活动诱导消费，不公平。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论提到基于活动价格点外卖，暗示平台可能通过临时优惠吸引用户，而非提供公平定价。作为公平斗士，我怀疑这涉及价格操纵或杀熟风险，但缺乏确凿证据，因此选择观望，继续关注平台行为。",
+            "cumulative_score": -0.1
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "价格",
+            "reaction": "价格敏感，但更担心便宜背后的食品安全隐患。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论强调价格驱动，可能暗示平台以低价吸引用户，这让我担忧商家资质和食品质量是否可靠，作为宝妈，我需要更关注安全和规范，因此暂时观望，不改变当前偏好。",
+            "cumulative_score": -0.1
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "价格",
+            "reaction": "看来大家都觉得贵，我也得省着点用了。",
+            "sentiment_shift": -2,
+            "action": "B",
+            "reason": "评论提到价格高，依赖活动才点，这强化了我对XX外卖贵的负面印象，但还没到完全放弃的程度，先观望看看有没有更多优惠。",
+            "cumulative_score": -0.2
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "价格",
+            "reaction": "哈哈，囤券时机到了，赶紧去薅羊毛，不能错过便宜！",
+            "sentiment_shift": 3,
+            "action": "A",
+            "reason": "评论提到囤优惠券和便宜机会，这直接触动了我的价格敏感神经，作为极致价格敏感用户，我会立即下载或切换平台以抓住优惠，最大化到手价。",
+            "cumulative_score": 0.3
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "价格",
+            "reaction": "优惠券？浪费时间，我的时间比这点钱值钱多了。",
+            "sentiment_shift": -1,
+            "action": "C",
+            "reason": "评论聚焦于价格优惠，这与我作为商务精英看重时间成本和稳定性的价值观不符。优惠券需要囤积和关注，增加了心智负担和不确定性，可能影响履约效率。因此，好感度略有下降，但不足以让我切换平台，因为美团在时效和服务稳定性上仍能满足我的核心需求，我会坚守现有平台。",
+            "cumulative_score": -0.1
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "价格",
+            "reaction": "用户贪小便宜，但平台可能利用优惠券操纵消费，缺乏公平性。",
+            "sentiment_shift": -1,
+            "action": "C",
+            "reason": "评论显示用户被优惠券吸引，这暗示平台可能通过价格策略诱导消费，而非尊重用户自主选择。作为公平斗士，我反感这种潜在的不公平营销，因此选择坚守原有立场，不改变平台偏好。",
+            "cumulative_score": -0.19
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "价格",
+            "reaction": "优惠虽好，但食品安全和配送规范更重要，不能因小失大。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅关注价格优惠，未涉及食品安全、商家资质或配送服务等核心关切，不足以改变对XX外卖的谨慎态度，需继续观望更全面的体验反馈。",
+            "cumulative_score": -0.09
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "价格",
+            "reaction": "哇，有便宜不占是傻瓜，赶紧跟上！",
+            "sentiment_shift": 2,
+            "action": "A",
+            "reason": "评论提到优惠券和便宜，符合我‘不试就亏了’的心理，会立刻下载或切换平台以抓住机会。",
+            "cumulative_score": 0.02
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太普通了，没提价格优惠，对我没吸引力。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只提到用户习惯性使用XX外卖，没有涉及价格、时效或杀熟等关键信息，无法影响我的决策，所以保持观望。",
+            "cumulative_score": 0.27
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "用户习惯固化，但与我追求效率无关，无实质影响。",
+            "sentiment_shift": 0,
+            "action": "C",
+            "reason": "评论仅提及用户因常用淘宝和XX而留存，未涉及价格、时效、服务或杀熟等关键因素。作为商务精英，我关注履约确定性和服务稳定性，此评论未提供任何负面或正面信息来改变我对XX外卖的好感度或行为。因此，好感度不变，继续坚守美团。",
+            "cumulative_score": -0.09
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "用户习惯性留存，缺乏对平台公平性的主动评估，这让我担忧。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论仅基于习惯而非对公平问题的考量，未提供确凿证据，但反映出用户可能忽视系统性不公，这加深了我对XX外卖潜在问题的疑虑，故好感度小幅下降并选择观望。",
+            "cumulative_score": -0.27
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "用户习惯影响不大，我更关注具体服务细节和安全性。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅提及用户习惯，未涉及食品安全、商家资质或配送服务等关键因素，不足以影响我对XX外卖的谨慎态度，故保持观望。",
+            "cumulative_score": -0.08
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "看来XX外卖用户基础还行，但没特别吸引我的点。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论没有强烈推荐或批评，只是习惯性使用，不足以改变我的观望态度。",
+            "cumulative_score": 0.02
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "淘宝里也有XX外卖？这渠道我还没试过，说不定有隐藏优惠。",
+            "sentiment_shift": 1,
+            "action": "B",
+            "reason": "评论提到淘宝里的XX外卖，可能意味着新渠道或合作优惠，这符合我寻找低价渠道的习惯。好感度微增，但需要先观望，研究淘宝是否有独家券或活动，再决定是否切换使用。",
+            "cumulative_score": 0.34
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "跨平台入口？增加操作步骤，浪费时间。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论提到通过淘宝使用XX外卖，这增加了心智成本和操作步骤，不符合我追求效率和省心的原则。虽然好感度略有下降，但未涉及大规模服务事故，因此选择观望，继续使用美团以保持稳定性。",
+            "cumulative_score": -0.18
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，没有具体问题，无法判断平台是否尊重用户。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容仅提及使用淘宝里的XX外卖，缺乏具体细节如价格、时效、服务或杀熟行为。作为公平斗士，我无法基于模糊信息做出判断或行动，因此选择观望，等待更多证据。",
+            "cumulative_score": -0.24
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "用淘宝点外卖？这听起来不太专业，食品安全能保证吗？",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论提到通过淘宝使用XX外卖，这让我怀疑平台的专注度和管理规范，可能影响食品安全和服务质量，因此好感度略有下降，但需要更多信息来确认，所以选择观望。",
+            "cumulative_score": -0.17
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "淘宝里也能点外卖？这操作有点迷啊。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论提到在淘宝用XX外卖，感觉不太主流，可能功能不完善或体验差，先观望看看其他用户反馈。",
+            "cumulative_score": -0.08
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "价格",
+            "reaction": "真的吗？我得赶紧去查查优惠券和比价，别被忽悠了。",
+            "sentiment_shift": 2,
+            "action": "B",
+            "reason": "评论提到XX最优惠，这直接触动了我的价格敏感神经，但需要进一步核实优惠力度和实际到手价，所以先观望，不急于切换平台。",
+            "cumulative_score": 0.51
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "价格",
+            "reaction": "优惠不值一提，我更关心稳定性和效率。",
+            "sentiment_shift": 0,
+            "action": "C",
+            "reason": "作为企业高管，我极度看重时间成本和履约确定性，优惠金额几乎可以忽略。这条评论只强调价格，没有触及我关心的时效或服务稳定性，因此好感度不变，继续坚守美团。",
+            "cumulative_score": -0.16
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "价格",
+            "reaction": "价格优惠可能只是表象，需警惕隐藏的不公平行为。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅提及价格优惠，未涉及系统性不公或劳动者权益问题，不足以改变好感度；作为公平斗士，我需更多证据才能采取行动，因此选择观望。",
+            "cumulative_score": -0.22
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "价格",
+            "reaction": "价格优惠虽好，但食品安全和配送服务才是关键，不能只看便宜。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅强调价格优惠，未涉及我关注的食品安全、商家资质或配送员卫生服务等核心因素，因此好感度不变，继续观望其他评论以评估整体体验。",
+            "cumulative_score": -0.16
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "价格",
+            "reaction": "真的吗？我得赶紧看看，别错过优惠！",
+            "sentiment_shift": 2,
+            "action": "B",
+            "reason": "评论提到优惠，但我是跟风路人，需要先观望社交媒体或热搜确认，避免冲动决策。",
+            "cumulative_score": 0.12
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太笼统了，没提优惠或价格，对我没参考价值。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只表达情感，没涉及价格、时效或杀熟等关键信息，无法影响我的决策，所以保持观望。",
+            "cumulative_score": 0.46
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "用户偏好与我无关，我只关心平台能否稳定履约。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅表达个人喜好，未涉及时效、服务或价格等影响效率的关键因素，不足以改变我对XX外卖的现有看法，继续观望。",
+            "cumulative_score": -0.15
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "这评论太笼统，缺乏具体证据，无法判断平台是否公平。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容仅为情感表达，未涉及价格、时效、服务、杀熟等具体话题，无法评估平台对用户和劳动者的尊重程度，因此保持观望态度，不改变好感度。",
+            "cumulative_score": -0.2
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "这评论太简单了，没具体信息，我无法判断XX外卖的实际表现。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容过于模糊，没有涉及食品安全、商家资质或配送服务等关键因素，无法影响我对XX外卖的信任度，因此保持观望。",
+            "cumulative_score": -0.14
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "哇，这评论好简单，但感觉挺正面的，是不是有啥隐藏福利？",
+            "sentiment_shift": 1,
+            "action": "B",
+            "reason": "评论太简短，没有具体信息，虽然正面但不足以让我立刻行动，先观望看看更多反馈。",
+            "cumulative_score": 0.21
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论无关价格，懒得理，我只关心优惠券在哪。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论不涉及价格或优惠信息，对XX外卖的好感度无影响，继续观望其他平台是否有更低价。",
+            "cumulative_score": 0.41
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "这评论毫无价值，浪费时间看这种无意义内容。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论不涉及价格、时效、服务或杀熟等关键话题，仅是无意义的嘲讽，对平台好感度无影响，继续观望现有平台。",
+            "cumulative_score": -0.13
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "评论无关公平问题，但暴露了对用户的不尊重。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论内容不直接涉及外卖平台的具体不公平行为（如杀熟或压榨），而是针对用户个人进行嘲讽，这违背了尊重用户的原则。作为公平斗士，我反感这种不尊重，但缺乏确凿证据表明XX外卖平台本身存在系统性不公，因此仅小幅降低好感度并保持观望，继续关注更相关的公平议题。",
+            "cumulative_score": -0.28
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "这评论无关食品安全或服务，对我决策无帮助。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容与食品安全、商家资质、配送服务等核心关注点无关，不提供任何有价值信息，因此好感度不变，继续观望现有平台。",
+            "cumulative_score": -0.13
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "哈哈，这评论太逗了，我也觉得有点夸张。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论带点嘲讽，但没具体说平台好坏，我暂时观望，看看更多讨论再决定。",
+            "cumulative_score": 0.09
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，没提到具体优惠或价格，对我没参考价值。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容不明确，没有涉及价格、时效或杀熟等关键信息，无法影响我的决策，所以保持观望。",
+            "cumulative_score": 0.37
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "这种模糊评论毫无信息量，浪费我时间。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论内容不具体，无法评估对时效或服务的实际影响，但负面模糊信息略微增加不确定性，故好感度微降并继续观望。",
+            "cumulative_score": -0.22
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "评论含糊，无法判断具体问题，但暗示可能存在平台对比或争议。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容不明确，缺乏确凿证据或具体细节，无法评估XX外卖是否涉及不公平行为。作为律师，我坚持基于事实和证据做出判断，因此选择观望，不改变当前行为。",
+            "cumulative_score": -0.25
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，没具体信息，让我有点困惑和不安。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论内容不明确，无法评估食品安全或服务细节，作为谨慎的宝妈，我需要更多可靠信息来做出判断，因此选择观望。",
+            "cumulative_score": -0.21
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "这评论没头没尾的，看不懂在说啥，先观望吧。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容模糊不清，无法判断具体话题类型或情绪倾向，因此不改变好感度，选择观望以等待更多信息。",
+            "cumulative_score": 0.08
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太泛了，没具体优惠信息，懒得理。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容过于笼统，没有提及价格、时效或具体优惠，无法评估是否值得切换平台，因此保持观望，等待更实用的信息。",
+            "cumulative_score": 0.33
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "又是这种模糊提问，浪费时间，我需要具体数据支撑。",
+            "sentiment_shift": -1,
+            "action": "C",
+            "reason": "评论内容过于笼统，无法提供有效信息来评估XX外卖的时效、服务或稳定性，这增加了我的决策成本，因此好感度略有下降，但不足以改变现有使用习惯。",
+            "cumulative_score": -0.3
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "用户询问平台整体评价，需要更多具体细节来评估公平性。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅询问平台整体情况，未提供关于价格、时效、服务、杀熟或劳动者待遇的具体证据，无法基于现有信息做出好感度调整或行动决策，因此保持观望。",
+            "cumulative_score": -0.23
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "评论太模糊，没提供具体信息，无法判断好坏。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容过于简单，没有涉及食品安全、商家资质或配送服务等关键因素，无法影响我对XX外卖的现有看法，因此保持观望。",
+            "cumulative_score": -0.19
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，没热点可跟，先观望吧。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容缺乏具体细节或情绪倾向，无法触发跟风行为，因此保持中立观望。",
+            "cumulative_score": 0.07
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，没提价格优惠，对我没参考价值。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅提及使用频率，未涉及价格、时效或杀熟等关键信息，无法影响我的决策，因此保持观望。",
+            "cumulative_score": 0.3
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，无法判断具体问题，浪费时间。",
+            "sentiment_shift": 0,
+            "action": "C",
+            "reason": "评论内容不具体，未提供关于时效、服务或价格等关键信息，不足以影响我的决策。我仍会坚守美团，因为路径熟、心智成本低，且没有明确负面证据。",
+            "cumulative_score": -0.27
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "杀熟",
+            "reaction": "这评论暗示了大数据杀熟，我必须深究其背后的不公平性。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论虽简短，但'点得更多'可能指向价格歧视或算法偏见，我需要更多证据来确认系统性不公，因此暂时观望，不立即切换平台。",
+            "cumulative_score": -0.3
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，没提到食品安全或配送规范，对我没参考价值。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容不具体，未涉及我关心的食品安全、商家资质或骑手服务，无法影响我对XX外卖的好感度，因此保持观望。",
+            "cumulative_score": -0.17
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "原来大家都这样，看来XX外卖确实不行啊。",
+            "sentiment_shift": -2,
+            "action": "C",
+            "reason": "评论暗示用户转向其他平台，负面情绪蔓延，我选择放弃XX外卖以避免潜在问题。",
+            "cumulative_score": -0.13
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "杀熟",
+            "reaction": "垄断？谁便宜我用谁，反正我能薅羊毛，不会玩的人才吃亏。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论讨论垄断和杀熟，但作为价格敏感用户，我只关心最终到手价，不参与道德讨论；当前好感度0.30，无新优惠信息，所以观望。",
+            "cumulative_score": 0.27
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "垄断风险？我更关心当下服务稳定，别浪费时间在假设上。",
+            "sentiment_shift": 0,
+            "action": "C",
+            "reason": "评论讨论的是未来垄断风险，这属于长期假设，不直接影响当前的时间成本或服务稳定性。作为商务精英，我优先考虑履约确定性和效率，不会因这种抽象担忧改变使用习惯，除非出现实际服务问题。",
+            "cumulative_score": -0.24
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "用户警惕垄断风险，这正是我担忧的公平问题。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论触及市场垄断和消费者权益，符合我对系统性不公平的关注，但缺乏具体证据（如杀熟或压榨），因此好感度小幅下降，选择观望以收集更多信息。",
+            "cumulative_score": -0.37
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "垄断风险让我警惕，但更关心日常配送安全。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论提到市场垄断和消费者风险，这让我对XX外卖的长期信任产生疑虑，但作为谨慎的宝妈，我优先关注食品安全和服务细节，因此选择观望，等待更多关于配送管理的正面反馈。",
+            "cumulative_score": -0.26
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "天啊，垄断割韭菜？这太可怕了，我得赶紧看看别人怎么说！",
+            "sentiment_shift": -2,
+            "action": "B",
+            "reason": "评论提到垄断和割韭菜，这引发了负面情绪，但我不确定这是否普遍，所以先观望社交媒体反应再决定。",
+            "cumulative_score": -0.32
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "点外卖不多？那更得精打细算，每次下单都要最大化优惠。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论没有提供具体价格或优惠信息，无法判断XX外卖是否更便宜，所以保持观望，继续寻找其他平台的优惠券。",
+            "cumulative_score": 0.24
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "用户点外卖不多，这评论对我没参考价值。",
+            "sentiment_shift": 0,
+            "action": "C",
+            "reason": "评论内容不涉及价格、时效、服务等关键因素，仅说明用户使用频率低，不影响我对XX外卖的现有判断和习惯。",
+            "cumulative_score": -0.22
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "评论太模糊，无法判断平台是否尊重用户，需要更多证据。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅提及使用XX外卖但点外卖不多，未涉及价格、时效、服务、杀熟等不公平行为的具体证据。作为公平斗士，我坚持基于确凿事实做出判断，因此保持观望，不改变好感度或行为。",
+            "cumulative_score": -0.34
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "用户点外卖不多，和我一样谨慎，这让我觉得XX可能适合我。",
+            "sentiment_shift": 1,
+            "action": "B",
+            "reason": "评论显示用户点外卖频率低，这与我的人设相符，暗示XX可能吸引谨慎消费者，好感度略有提升，但需更多证据确认其食品安全和服务质量，因此选择观望。",
+            "cumulative_score": -0.13
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "这评论太中立了，没啥情绪可跟，先观望吧。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容平淡，没有强烈正面或负面情绪，无法激发跟风冲动，保持现有状态。",
+            "cumulative_score": -0.29
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太泛了，没具体优惠信息，对我没帮助。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只问平台可用性和实用性，没提价格或优惠，无法影响我的决策，所以保持观望。",
+            "cumulative_score": 0.22
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "这种基础问题浪费时间，直接看专业评测或自己试用更高效。",
+            "sentiment_shift": -1,
+            "action": "C",
+            "reason": "评论内容无关价格、时效或服务等核心效率因素，只是用户咨询可用性和实用性，对我这种看重稳定性和时间成本的人来说，没有提供任何有价值的信息来影响决策，反而增加了信息噪音，因此好感度略有下降，但不足以改变我坚守美团的选择。",
+            "cumulative_score": -0.29
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "用户询问平台选择，但未涉及具体不公平行为，需保持警惕。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅询问XX外卖的可用性和实用性，未提供关于价格、时效、服务或杀熟的具体证据，无法触发对人设核心关注点的反应。作为公平斗士，我坚持基于确凿证据行动，因此选择观望，不改变好感度或采取行动。",
+            "cumulative_score": -0.3
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "这评论没涉及食品安全或配送规范，对我决策帮助不大。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅询问平台可用性和实用性，未提供关于食品安全、商家资质或骑手服务等关键信息，无法影响我对XX外卖的现有看法，因此保持观望。",
+            "cumulative_score": -0.12
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "大家都在讨论这个，我得看看评论怎么说。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论没有具体信息，无法判断好坏，先观望社交媒体上的讨论再决定。",
+            "cumulative_score": -0.26
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论没提价格，不关我事。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容模糊，未涉及价格优惠或具体问题，无法影响我的决策，保持观望。",
+            "cumulative_score": 0.2
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，完全无法判断具体问题，浪费时间。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容不清晰，无法评估对时效、服务或稳定性的影响，基于当前人设，不会因模糊信息改变行为，继续观望。",
+            "cumulative_score": -0.27
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "这个评论太模糊了，无法判断具体问题，但听起来像负面吐槽。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论内容不明确，仅凭模糊信息不足以采取行动，但负面印象可能暗示潜在问题，需观望更多证据。",
+            "cumulative_score": -0.37
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，完全无法判断平台好坏。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容不明确，无法提供关于食品安全、商家资质或配送服务的信息，因此无法影响当前好感度，决定继续观望。",
+            "cumulative_score": -0.11
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "这名字好奇怪，感觉不太靠谱的样子。",
+            "sentiment_shift": -1,
+            "action": "C",
+            "reason": "评论提到一个不熟悉的名称，引发负面联想，基于当前好感度低，选择放弃或坚守现有平台。",
+            "cumulative_score": -0.33
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论没提价格，对我没吸引力，懒得细看。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只讨论平台切换，未涉及价格或优惠信息，无法影响我的决策，保持观望。",
+            "cumulative_score": 0.18
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "用户习惯固化，但与我无关，我只看重稳定性和效率。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅描述个人使用习惯，未涉及时效、服务或价格等影响我决策的关键因素，因此好感度不变，继续观望现有平台。",
+            "cumulative_score": -0.24
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "用户忠诚度转移，但未提及具体原因，需进一步观察是否涉及不公平行为。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅描述用户从XX切换到XX外卖的使用习惯变化，未提供关于价格、时效、服务或杀熟等不公平行为的证据。作为公平斗士，我坚持基于确凿证据行动，因此选择观望，不改变好感度或采取行动。",
+            "cumulative_score": -0.33
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "用户频繁切换平台，可能暗示XX外卖有吸引力，但不确定是否可靠。",
+            "sentiment_shift": 1,
+            "action": "B",
+            "reason": "评论显示用户从XX切换到XX外卖并高频使用，这暗示XX外卖可能有优势，但作为谨慎的宝妈，我需要更多关于食品安全、配送规范的具体好评来确认，因此选择观望而非立即行动。",
+            "cumulative_score": 0.01
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "哇，这评论好真实，感觉XX外卖更受欢迎啊！",
+            "sentiment_shift": 2,
+            "action": "A",
+            "reason": "看到用户从XX完全切换到XX外卖，还一天用好几次，觉得它肯定更好用，不试就亏了。",
+            "cumulative_score": -0.1
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太泛了，没提价格或优惠，对我没吸引力。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只提到平台使用习惯，没有涉及价格、时效、服务或杀熟等关键信息，无法判断优惠力度，因此保持观望，不改变当前行为。",
+            "cumulative_score": 0.16
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "用户习惯而已，和我一样图省心，但没提具体优势。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅提及使用习惯，未涉及价格、时效、服务等关键因素，不足以影响我的决策。我会继续观望，因为美团目前满足我的稳定性和效率需求。",
+            "cumulative_score": -0.21
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "用户提到XX，但没具体问题，我保持警惕，观察其后续表现。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅提及使用XX外卖，未涉及价格、时效、服务或杀熟等具体不公平行为。作为公平斗士，我需要确凿证据才能调整好感度或采取行动，因此选择观望，继续关注平台动态。",
+            "cumulative_score": -0.3
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "这评论太简单了，没提到食品安全或服务细节，我无法判断好坏。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容过于笼统，缺乏关于食品安全、商家资质或配送服务的具体信息，无法影响我的决策，因此保持观望。",
+            "cumulative_score": 0.0
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "这评论太普通了，没情绪，我懒得跟风。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容平淡，没有引发强烈情绪或舆论倾向，我选择观望，不改变当前行为。",
+            "cumulative_score": -0.09
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "时效",
+            "reaction": "配送慢是常态，我更关心价格有没有优惠券。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论讨论配送时效的不确定性，但作为价格敏感用户，这不会影响我的决策，除非有价格相关因素。",
+            "cumulative_score": 0.14
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "时效",
+            "reaction": "这些不可控因素正是我最厌恶的，浪费时间成本。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论强调了时效的不确定性，这触及了我对履约确定性的核心痛点，但未涉及大规模事故或明确负面舆论，因此暂时观望，不轻易切换平台。",
+            "cumulative_score": -0.29
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "时效",
+            "reaction": "评论指出了配送时效的复杂性，但缺乏对平台责任的直接指控。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅讨论配送时效的不确定性因素，未提供平台系统性不公平（如压榨骑手或杀熟）的证据，因此不改变好感度，保持观望。",
+            "cumulative_score": -0.27
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "时效",
+            "reaction": "配送不确定性太多，让我担心食品安全和准时性。",
+            "sentiment_shift": -2,
+            "action": "B",
+            "reason": "评论强调了配送时效的不稳定因素（如骑手经验、单量、心情），这加剧了我对食品安全和准时交付的担忧，但尚未提供具体负面案例，因此选择观望以收集更多信息。",
+            "cumulative_score": -0.2
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "时效",
+            "reaction": "这评论说得对，外卖慢不能全怪平台，好多因素影响啊。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论指出了时效问题的复杂性，没有直接批评平台，让我觉得好感度不变，暂时观望不行动。",
+            "cumulative_score": -0.08
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "实名？这跟价格有啥关系，不关心。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论讨论实名认证，与价格优惠无关，不影响我的决策标准，所以保持观望。",
+            "cumulative_score": 0.13
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "这种基础问题都搞不清，平台服务稳定性存疑。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论涉及用户身份验证问题，暗示平台可能存在流程混乱或信息不透明，增加了履约不确定性。虽然当前影响较小，但若类似问题频发，可能动摇对服务稳定性的信任，因此选择观望，暂不切换平台。",
+            "cumulative_score": -0.36
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "实名制与点餐无关，平台规则应清晰透明。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论涉及平台规则模糊性，虽非直接杀熟或压榨，但反映了对用户的不尊重，可能影响公平性，因此好感度轻微下降，但证据不足，暂观望。",
+            "cumulative_score": -0.34
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "实名制？这涉及商家资质和食品安全，我得仔细考虑。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论提到实名制问题，这让我担心平台对商家和用户的管理是否严格，可能影响食品安全和信任。作为谨慎的宝妈，我需要更多信息来评估，所以选择观望，不立即切换或放弃。",
+            "cumulative_score": -0.28
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "这问题有点奇怪，实名点餐？没听说过，感觉是用户搞错了。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论不涉及价格、时效或服务等常见话题，没有引发情绪共鸣，所以保持观望，好感度不变。",
+            "cumulative_score": -0.07
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "时效",
+            "reaction": "配送慢可以忍，但平台偷时间影响我抢优惠，太不厚道了。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论提到平台偷时间，这可能影响我计算优惠和配送效率，但没直接涉及价格，所以先观望，看是否有更便宜的替代平台。",
+            "cumulative_score": 0.02
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "时效",
+            "reaction": "偷时间就是浪费我的生命，不可容忍。",
+            "sentiment_shift": -2,
+            "action": "B",
+            "reason": "评论提到平台偷时间，这直接触犯了我对时效和确定性的核心需求，但未涉及大规模事故，因此好感度下降但暂不切换，保持观望。",
+            "cumulative_score": -0.53
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "时效",
+            "reaction": "平台偷时间压榨骑手，这是对劳动者的不尊重，必须曝光。",
+            "sentiment_shift": -2,
+            "action": "C",
+            "reason": "评论揭露了平台系统性偷时间行为，这违背程序正义，加剧对骑手的压榨，作为公平斗士，我选择坚守抵制立场，不轻易改变平台选择。",
+            "cumulative_score": -0.51
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "时效",
+            "reaction": "配送时间被偷，这让我担心骑手可能匆忙、不卫生。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论提到平台偷时间，可能影响配送员服务质量和卫生习惯，这与我重视的食品安全和规范服务相冲突，但尚未有直接证据，所以保持观望。",
+            "cumulative_score": -0.35
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "时效",
+            "reaction": "原来不止我一个觉得平台在偷时间，太坑了！",
+            "sentiment_shift": -2,
+            "action": "B",
+            "reason": "评论提到平台偷时间，这引发了我的共鸣和负面情绪，但还没看到更多证据，所以先观望看看舆论发展。",
+            "cumulative_score": -0.27
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "价格",
+            "reaction": "9.9两杯？这优惠力度太诱人了，我得赶紧去抢！",
+            "sentiment_shift": 3,
+            "action": "A",
+            "reason": "评论提到XX外卖有9.9两杯瑞幸的优惠，这符合我作为价格敏感型用户的核心标准，优惠力度足够大，能显著降低到手价，因此我会立即下载或切换到XX外卖平台去利用这个优惠。",
+            "cumulative_score": 0.31
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "价格",
+            "reaction": "优惠微不足道，我更在乎稳定和效率，不会为这点折扣改变习惯。",
+            "sentiment_shift": 0,
+            "action": "C",
+            "reason": "评论聚焦于低价优惠，这在我的人设中几乎无影响；我作为商务精英看重时间成本和履约确定性，不会因小折扣切换平台，且当前好感度-0.53未触发负面舆论，因此坚守美团。",
+            "cumulative_score": -0.47
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "价格",
+            "reaction": "这评论暗示XX外卖只在低价时吸引用户，可能利用价格歧视策略。",
+            "sentiment_shift": -1,
+            "action": "C",
+            "reason": "评论暗示XX外卖可能通过低价促销诱导消费，而非提供公平定价，这强化了我对其不尊重用户的怀疑，因此坚守抵制立场。",
+            "cumulative_score": -0.56
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "价格",
+            "reaction": "价格便宜但担心商家资质和食品安全，不能只看优惠。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论只关注低价，忽略了我最在意的食品安全和配送服务，这让我对XX外卖的信任度下降，但尚未完全放弃，需要更多关于服务质量的评论来评估。",
+            "cumulative_score": -0.41
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "价格",
+            "reaction": "哇，这么便宜，不买就亏大了！",
+            "sentiment_shift": 3,
+            "action": "A",
+            "reason": "看到低价优惠，立刻产生冲动，想抓住机会下载或切换平台来享受折扣。",
+            "cumulative_score": 0.06
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太虚了，没提价格，对我没帮助。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只关注外观和便利性，未涉及价格或优惠信息，无法影响我的决策，因此保持观望。",
+            "cumulative_score": 0.28
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "这评论太主观了，对时效和服务没实质信息，浪费时间。",
+            "sentiment_shift": 0,
+            "action": "C",
+            "reason": "评论内容过于笼统和情感化，没有涉及价格、时效、服务稳定性等关键因素，无法评估XX外卖的履约确定性和效率，因此好感度不变，继续坚守美团以降低心智成本。",
+            "cumulative_score": -0.43
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "这评论太肤浅，没触及平台公平性问题，让我失望。",
+            "sentiment_shift": -1,
+            "action": "C",
+            "reason": "评论只关注外观和便利性，忽略了对劳动者和消费者的尊重，强化了我对XX外卖的负面看法，因此好感度下降，选择坚守抵制立场。",
+            "cumulative_score": -0.6
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "评论太模糊了，没提到食品安全或配送细节，让我有点不安。",
+            "sentiment_shift": -1,
+            "action": "B",
+            "reason": "评论只强调外观和便利性，缺乏我关注的食品安全、商家资质或骑手服务信息，无法建立信任，因此好感度略降，继续观望。",
+            "cumulative_score": -0.47
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "哇，这评论好吸引人，我也得试试看！",
+            "sentiment_shift": 2,
+            "action": "A",
+            "reason": "看到正面评论，感觉不试就亏了，想跟风体验一下。",
+            "cumulative_score": 0.25
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太水了，跟价格无关，浪费我时间。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只关注口味和关注用户，没有涉及价格、时效、服务或杀熟等影响我决策的因素，因此好感度不变，继续观望现有平台。",
+            "cumulative_score": 0.25
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "评论无关平台核心服务，浪费时间。",
+            "sentiment_shift": 0,
+            "action": "C",
+            "reason": "评论聚焦用户个人口味偏好，不涉及时效、服务或价格等关键因素，对平台好感度无影响，继续使用美团以保持稳定。",
+            "cumulative_score": -0.38
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "评论与公平性无关，只是个人口味偏好。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "该评论未涉及价格、时效、服务、杀熟等公平性问题，仅关注口味和商家推荐，不触发对人设核心标准的反应，因此保持观望状态。",
+            "cumulative_score": -0.54
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "评论太随意，没提食品安全或服务细节，对我没参考价值。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容不涉及食品安全、商家资质或配送服务等关键因素，无法影响我对XX外卖的信任度，因此保持观望。",
+            "cumulative_score": -0.43
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "这评论太水了吧，完全没营养，跟风都懒得跟。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容无关外卖平台的核心问题（如价格、时效等），无法引发情绪共鸣或影响决策，因此保持观望。",
+            "cumulative_score": 0.23
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太泛了，没提价格，对我没帮助。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只问蛋糕推荐，没涉及价格、时效、服务或杀熟等关键信息，无法影响我的决策，所以保持观望。",
+            "cumulative_score": 0.23
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "无关紧要的闲聊，浪费我的时间。",
+            "sentiment_shift": 0,
+            "action": "C",
+            "reason": "评论内容与外卖平台的核心服务（如时效、价格、履约）无关，仅涉及一般性询问，不构成影响我决策的因素。我作为商务精英，关注的是稳定性和效率，这种闲聊不会改变我对XX外卖的好感度或使用习惯。",
+            "cumulative_score": -0.35
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "这评论与不公平问题无关，只是普通咨询，我保持中立。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论未涉及价格、时效、服务、杀熟等不公平行为，不触发我的维权或抵制反应，因此好感度无变化，继续观望。",
+            "cumulative_score": -0.49
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "这评论不涉及食品安全或配送，对我决策帮助不大。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容仅询问蛋糕购买渠道，未提及食品安全、商家资质、配送服务等关键因素，因此不影响我对XX外卖的好感度，继续观望。",
+            "cumulative_score": -0.38
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "这评论跟外卖平台好坏没关系，懒得想。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论不涉及外卖平台的具体问题，没有影响我的判断，所以保持观望。",
+            "cumulative_score": 0.21
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "评论只说好吃和划算，没提具体优惠，对我没参考价值。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论缺乏价格细节，无法判断XX外卖是否比其他平台更便宜，因此不改变好感度，继续观望。",
+            "cumulative_score": 0.21
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "评论太主观，没提时效或服务，对我没参考价值。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只涉及价格和口味，不触及我关心的时效、履约确定性或服务稳定性，因此好感度不变，继续观望美团。",
+            "cumulative_score": -0.31
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "评论太笼统，缺乏具体细节，无法判断平台是否公平。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅涉及价格和口味，未提及杀熟、服务或劳动者权益等关键公平问题，不足以影响对平台的好感度，因此选择观望。",
+            "cumulative_score": -0.44
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "评论太简单，没提食品安全或服务，我无法判断好坏。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论仅涉及价格和口味，未触及我关注的食品安全、商家资质或配送服务等核心因素，因此好感度不变，继续观望。",
+            "cumulative_score": -0.34
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "哇，这评论好诱人，感觉不点就亏大了！",
+            "sentiment_shift": 2,
+            "action": "B",
+            "reason": "评论正面但简短，先观望看看更多反馈再决定。",
+            "cumulative_score": 0.39
+        },
+        {
+            "agent_name": "羊毛党",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，没提价格优惠，对我没吸引力。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论只表达个人喜好，未涉及价格、时效或杀熟等关键信息，无法判断优惠力度，因此保持观望，不改变当前平台使用习惯。",
+            "cumulative_score": 0.19
+        },
+        {
+            "agent_name": "商务精英",
+            "topic_category": "其他",
+            "reaction": "评论太模糊，无法判断平台优劣，浪费时间。",
+            "sentiment_shift": -1,
+            "action": "C",
+            "reason": "评论内容缺乏具体信息，无法评估对时效、服务或稳定性的影响，作为商务精英，我厌恶不确定性，因此保持现状，继续使用美团。",
+            "cumulative_score": -0.38
+        },
+        {
+            "agent_name": "公平斗士",
+            "topic_category": "其他",
+            "reaction": "评论太模糊，无法判断平台是否尊重用户和劳动者。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容简短且未涉及价格、时效、服务或杀熟等具体问题，缺乏证据表明XX外卖存在不公平行为，因此保持观望态度，不改变好感度或行为。",
+            "cumulative_score": -0.4
+        },
+        {
+            "agent_name": "品质宝妈",
+            "topic_category": "其他",
+            "reaction": "这评论太模糊了，没提到食品安全或服务细节，我无法判断。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容过于简单，没有提供关于食品安全、商家资质或配送服务的信息，无法影响我对XX外卖的现有看法，因此保持观望。",
+            "cumulative_score": -0.31
+        },
+        {
+            "agent_name": "跟风路人",
+            "topic_category": "其他",
+            "reaction": "这评论太简单了，看不出好坏，先观望吧。",
+            "sentiment_shift": 0,
+            "action": "B",
+            "reason": "评论内容模糊，没有具体信息，无法判断XX外卖的好坏，所以保持中立，不改变当前行为。",
+            "cumulative_score": 0.35
+        }
+    ],
+    "line_chart": {
+        "羊毛党": [
+            0.0,
+            0.3,
+            0.27,
+            0.34,
+            0.51,
+            0.46,
+            0.41,
+            0.37,
+            0.33,
+            0.3,
+            0.27,
+            0.24,
+            0.22,
+            0.2,
+            0.18,
+            0.16,
+            0.14,
+            0.13,
+            0.02,
+            0.31,
+            0.28,
+            0.25,
+            0.23,
+            0.21,
+            0.19
+        ],
+        "商务精英": [
+            0.0,
+            -0.1,
+            -0.09,
+            -0.18,
+            -0.16,
+            -0.15,
+            -0.13,
+            -0.22,
+            -0.3,
+            -0.27,
+            -0.24,
+            -0.22,
+            -0.29,
+            -0.27,
+            -0.24,
+            -0.21,
+            -0.29,
+            -0.36,
+            -0.53,
+            -0.47,
+            -0.43,
+            -0.38,
+            -0.35,
+            -0.31,
+            -0.38
+        ],
+        "公平斗士": [
+            -0.1,
+            -0.19,
+            -0.27,
+            -0.24,
+            -0.22,
+            -0.2,
+            -0.28,
+            -0.25,
+            -0.23,
+            -0.3,
+            -0.37,
+            -0.34,
+            -0.3,
+            -0.37,
+            -0.33,
+            -0.3,
+            -0.27,
+            -0.34,
+            -0.51,
+            -0.56,
+            -0.6,
+            -0.54,
+            -0.49,
+            -0.44,
+            -0.4
+        ],
+        "品质宝妈": [
+            -0.1,
+            -0.09,
+            -0.08,
+            -0.17,
+            -0.16,
+            -0.14,
+            -0.13,
+            -0.21,
+            -0.19,
+            -0.17,
+            -0.26,
+            -0.13,
+            -0.12,
+            -0.11,
+            0.01,
+            0.0,
+            -0.2,
+            -0.28,
+            -0.35,
+            -0.41,
+            -0.47,
+            -0.43,
+            -0.38,
+            -0.34,
+            -0.31
+        ],
+        "跟风路人": [
+            -0.2,
+            0.02,
+            0.02,
+            -0.08,
+            0.12,
+            0.21,
+            0.09,
+            0.08,
+            0.07,
+            -0.13,
+            -0.32,
+            -0.29,
+            -0.26,
+            -0.33,
+            -0.1,
+            -0.09,
+            -0.08,
+            -0.07,
+            -0.27,
+            0.06,
+            0.25,
+            0.23,
+            0.21,
+            0.39,
+            0.35
+        ]
+    }
+}
